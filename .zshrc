@@ -94,6 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+# Git aliases
 alias gs="git status"
 alias gb="git branch"
 alias ga="git add"
@@ -108,3 +109,15 @@ alias gm="git merge"
 alias gps="git push origin $(current_branch)"
 alias gpl="git pull origin $(current_branch)"
 alias gfa="git fetch --all"
+
+# Docker aliases
+# alias drmi"docker rmi $(docker images -q)"
+# alias drmc="docker rm $(docker ps -a -q)"
+# alias drmv="docker volume rm $(docker volume ls -q)"
+
+#Rails aliases
+alias rs="spring rails s"
+alias rc="spring rails c"
+alias rdm="spring rake db:migrate"
+alias rdr="spring rake db:rollback"
+alias rr="spring rspec"
